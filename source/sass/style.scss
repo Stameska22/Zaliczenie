@@ -1,0 +1,22 @@
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+ 
+
+@import 'blocks/hero';
